@@ -66,3 +66,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Project Components 
+
+<!-- <Header /> -->
+<!-- <ProduceList /> some sort of drop down menu to select different days similar to TicketList? -->
+<!--<Produce /> similar to the Ticket component? -->
+<!-- <DaysControl /> I imagine with will be simiar to the ticket control example to toggle between different days -->
+<!-- >
+
