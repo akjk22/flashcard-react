@@ -276,9 +276,11 @@ function SeasonalProduceList(){
       <hr/>
       {availableProduce.map((produce, index) =>
         <Produce month={produce.month}
-          selection={produce.selection[1]}
+          selection={produce.selection[2]}
           key={index}/>
       )}
     </React.Fragment>
   );
 }
+
+export default SeasonalProduceList;

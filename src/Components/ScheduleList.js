@@ -1,5 +1,5 @@
 import React from 'react';
-import Schedule from 'Schedule.js'
+import Schedule from './Schedule'
 
 const marketSchedule = [  
     {  
@@ -40,3 +40,19 @@ const marketSchedule = [
     }
    ];
 
+   function ScheduleList(){
+      return (
+        <React.Fragment>
+          <hr/>
+          {marketSchedule.map((schedule, index) =>
+            <Schedule day={schedule.day}
+              location={schedule.location}
+              hours={schedule.hours}
+              booth={schedule.booth}
+              key={index}/>
+          )}
+        </React.Fragment>
+      );
+    }
+
+    export default ScheduleList;
