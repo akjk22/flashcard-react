@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Schedule from "./Schedule";
+// import Schedule from "./Schedule";
+import Flash from "./Flash";
 
-export default class Test extends Component {
+class Test extends Component {
   state = {
     on: false,
   }
@@ -15,7 +16,7 @@ export default class Test extends Component {
   render() {
     return(
       <div>
-        {this.state.on && <Schedule />}
+        {this.state.on && <h1>{Flash}</h1>}
         <button onClick={this.toggle}>Show/Hide</button>
       </div>
       
@@ -24,3 +25,5 @@ export default class Test extends Component {
 
 
 }
+
+export default Test;
