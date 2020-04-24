@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import React from 'react';
 import Header from './Header';
 // import FlashcardList from './FlashcardList'; 
-import Flashcard2 from './Flashcard2';
-import FlashcardList2 from './FlashcardList2';
+// import FlashcardFront from './FlashcardFront';
+// import FlashcardList from './FlashcardList';
+import FlashcardControl from './FlashcardControl';
 
 
 function App(){
@@ -13,8 +15,9 @@ function App(){
       <Header />
       {/* passing array of questions into our flashcard list component */}
      {/* <FlashcardList flashcards={flashcards} /> */}
-     <Flashcard2 />
-     <FlashcardList2 />
+     {/* <Flashcard2 />
+     <FlashcardList2 /> */}
+     <FlashcardControl />
     </React.Fragment>
   );
 }
